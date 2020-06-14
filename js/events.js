@@ -21,7 +21,7 @@ document.getElementById("add").addEventListener("click", function(e){
     <div class="col-sm-2">
         <div class="card">
             <div class="text-center">
-                <a onclick="go('${site}')"> </a>   
+                <a onclick="go('${value}')"> </a>   
                 <img class="img" onclick="go('${value}')" src="${main}">
                 <div class="img text-white p-1 btnbox">
                     <a onclick="deleteItem('${value}')" class="btn btn-danger h-75 w-100">Delete</a>
